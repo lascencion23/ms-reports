@@ -1,8 +1,10 @@
-package com.everis.msreports.entity;
+package com.everis.msreports.entity.saving;
 
 import lombok.Data;
 import java.time.LocalDateTime;
 import java.util.List;
+
+import com.everis.msreports.entity.customer.Person;
 
 @Data
 public class SavingAccount {

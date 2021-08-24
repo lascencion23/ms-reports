@@ -1,11 +1,18 @@
-package com.everis.msreports.entity;
+package com.everis.msreports.entity.customer;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.experimental.SuperBuilder;
+
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 import java.util.Date;
 
 @Data
+@SuperBuilder
+@AllArgsConstructor
+@NoArgsConstructor
 public class Customer {
 
     private String id;

@@ -1,4 +1,4 @@
-package com.everis.msreports.entity;
+package com.everis.msreports.entity.customer;
 
 import lombok.Data;
 

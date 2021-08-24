@@ -1,9 +1,11 @@
-package com.everis.msreports.entity;
+package com.everis.msreports.entity.fixedTerm;
 
 import lombok.Data;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
+
+import com.everis.msreports.entity.customer.Person;
 
 @Data
 public class FixedTerm {
